@@ -130,8 +130,8 @@ ArrayList<ArrayList<Integer>> getSubsets(ArrayList<Integer> set, int index) {
 
 // PROBLEM 8.7 Permutations without dups: all permutations of a string of unique characters
 // SOLUTION: 
-// 1. Base case: str == null
-// 2. 
+// 1. Base case: str == null, and if it's the empty string, adding that to the set of permutations
+// 2. Similar to previous algorithm
 ArrayList<String> getPerms(String str) {
 	if (str == null) {
 		return null;
